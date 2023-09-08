@@ -15,8 +15,7 @@ body{
 .top{
   position: fixed;
   right: 30px;
-  bottom: 30px;
-  
+  bottom: 30px; 
 }
 .top a{
   display: block;
@@ -61,8 +60,6 @@ nav{
   color: #111;
 }
 
-
-
 /* Main Visual--------------- */
 main{
   position: relative;
@@ -101,9 +98,7 @@ main .title a{
 main .title a:hover {
   background-color: #fff;
   color: #111;
-
 }
-
 main .cover{
   position: absolute;
   width: 100%;
@@ -113,13 +108,11 @@ main .cover{
 }
 main:hover{
   background: url(../image/mv3.png) no-repeat center bottom fixed;
-  background-size: cover;}
-
+  background-size: cover;
+}
 
 /* section_product--------------- */
-
 .product_img, .story_img, .recipe_img, .shop_img {
-  /* border: 1px solid red; */
   width:1200px;
   margin: 50px auto 0;
 }
@@ -130,8 +123,6 @@ section div h1{
   text-align: center;
   padding: 90px 0 40px ;
 }
-
-
 .product_img ul{
   display: flex;
   justify-content: space-between;
@@ -154,7 +145,6 @@ section div h1{
   box-shadow: 0 0 35px orange;
 }
 .product_img ul li img{
-  /* border: 1px solid red; */
   width: 270px;
   height: 440px;
   transform: translateY(-20px);
@@ -181,10 +171,7 @@ section div h1{
   color: #222;
 }
 
-
-
 /* section_story--------------- */
-
 #story{
   border: 1px solid #111;
   background-color: #111;
@@ -194,11 +181,11 @@ section div h1{
   margin-top: 40px;
   margin-bottom: 70px;
 }
-
 .story_img ul{
   width: inherit;
   height: 600px;
-  display: flex;}
+  display: flex;
+}
 .story_img ul li{
   border-right: 5px solid #ffcc66;
   flex: 0.5;
@@ -208,7 +195,6 @@ section div h1{
   transition: 0.5s;
 }
 .story_img li:last-child{border-right: none;}
-
 .story_img li:nth-child(1){background: url(../image/history.jpg) no-repeat center center;}
 .story_img li:nth-child(2){background: url(../image/MicroDraught.jpg) no-repeat center center;}
 .story_img li:nth-child(3){background: url(../image/w_storehouse.jpg) no-repeat center center;}
@@ -218,9 +204,6 @@ section div h1{
   flex: 1;
   filter: grayscale(0);
 }
-
-
-
 .content{
   text-transform: capitalize;
   position: absolute;
@@ -244,7 +227,6 @@ section div h1{
   transition-delay: 0.3s;
 }
 
-
 /* section_recipe--------------- */
 .recipe_img{
   width: 1200px;
@@ -253,8 +235,7 @@ section div h1{
   grid-template-columns: repeat(3,1fr);
   gap: 20px;
   justify-content: center;
-  align-items: center;
-  
+  align-items: center; 
 }
 .food{
   position: relative; 
@@ -271,7 +252,6 @@ section div h1{
   object-fit: cover;
 }
 .food:hover{box-shadow: 0 0 10px #fff;}
-
 .caption{
   position: absolute;
   text-transform: capitalize;
@@ -300,18 +280,13 @@ section div h1{
 .food:hover .caption{
   top:40%;
   background: linear-gradient(to top,olivedrab,transparent);
-  
 }
-
-
-
 
 /* section_shop--------------- */
 #shop{
   background-color: #111;
   border: 1px solid #111;
 }
-
 .shop_img{
   display: flex;
   justify-content: center;
@@ -326,14 +301,13 @@ section div h1{
   position: relative;
 }
 .item:hover img{filter: blur(3px);}
-
 .text{
   position: absolute;
   top: 0;
   left: 0;
   width: inherit;
   height: inherit; 
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 100px 0;
   box-sizing: border-box;
   line-height: 40px;
@@ -345,7 +319,8 @@ section div h1{
 .text p{
   margin: 25px 0;
   font-size: 22px;
-  font-style: normal;
+  font-weight: lighter;
+  color: #ddd;
 }
 .text a{
   font-size: 20px;
@@ -357,13 +332,8 @@ section div h1{
 }
 .text a:hover{background-color: #fff;}
 
-
-
-
-
 /* footer */
 footer{
-  
   width: 100%;
   height: 100px;
   background-color: #444;
@@ -375,21 +345,19 @@ footer{
   color: #ccc;
 }
 footer ul{display: flex;}
-
 footer ul li{
   padding: 0 5px;
-  transition: 0.2s;}
+  transition: 0.2s;
+}
 .foot_list li:not(:first-child){border-left: 1px solid #999 ;}
 footer ul li:hover{color: #fff;}
 address{
   width:600px;
-  /* border: 1px solid #000; */
   font-style: normal;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
   text-align: left;
-  /* border: 1px solid red; */
 }
 .sns a{
   display: inline-block;
